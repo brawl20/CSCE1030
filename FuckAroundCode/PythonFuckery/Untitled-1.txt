@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>eConnect Main Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/normalize/normalize.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/bootstrap3/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/fontawesome/css/all.min.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/standalone.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/usemastericons.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/Default.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/SiteStyle.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/ConstituencyStyle.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/css.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/econnect-styles.css">
+<link type="text/css" rel="stylesheet" href="./stylesheets/themes/ORIGINAL/MenuStyle_BARS.css">
+<script language="Javascript" type="text/javascript" src="./javascript/WebAdvisor_scripts.js"></script><script language="JavaScript" type="text/javascript" src="./javascript/jquery/jquery-3.4.1.min.js"></script><script language="JavaScript" type="text/javascript" src="./javascript/bootstrap3/js/bootstrap.min.js"></script><script language="JavaScript" type="text/javascript" src="./javascript/js/masterpage_scripts.js"></script><script language="JavaScript" type="text/javascript" src="./javascript/js/external_links.js"></script><script language="JavaScript" type="text/javascript" src="/javascript/upgrade.js"></script>
+<noscript>The Javascript provides Envision session management in a web context.</noscript>
+    <!-- In DCCCDInserts.xsl template name="insertCustomJavaScriptInHead" -->
+    <script language="JavaScript" type="text/javascript" xmlns="">
+            /*Get time from Server */
+            serverTime ='<!--#echo var="DATE_LOCAL"-->';
+        </script>
+    <script language="JavaScript" type="text/javascript" xmlns="">
+            
+            var TokenID = "7445921841";
+            var PID = "WBMAIN";
+            var Constituency = "WBDF";
+            
+                    var LoggedIn = "true";
+                </script>
+    <script language="Javascript" type="text/javascript" src="./javascript/nothing.js" xmlns="">
+                    
+                    function loading(){}
+                    function unloading(){}
+                    function validateForm(){
+                    return true;
+                    }
+                </script><!-- End DCCCDInserts.xsl template name="insertCustomJavaScriptInHead" -->
+    </head>
+<body onload="javascript:loading(); javascript:displayFormHTML(true);" onunload="javascript:unloading();">
+<div id="webPage">
+<div id="pgsheader" xmlns="">
+<header id="l-header-desktop" class="ms-dialogHidden l-header-desktop--compact" aria-hidden="false">
+<div id="skiptocontent" role="navigation" aria-label="Skip navigation">
+<a style="color:#ffffff!important" href="#pageBody">Skip to Main Content</a>
+</div>
+<div id="l-nav-utility" class="bg-cprimary-lt navbar navbar--utility-nav">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#resources-for" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="ico fas fa-bars fa-lg" aria-hidden="true"></span></button>
+</div>
+<div class="collapse navbar-collapse" id="resources-for">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="hidden-sm">Online </span>Tools<span class="ico fas fa-chevron-circle-down" aria-hidden="true"></span></a>
+<ul class="dropdown-menu">
+<li>
+<a class="track-header" href="https://econnect.dcccd.edu"><span class="ico fas fa-network-wired" aria-hidden="true"></span>eConnect</a>
+</li>
+<li>
+<a class="track-header" href="https://ecampus.dcccd.edu/"><span class="ico fas fa-chalkboard-teacher" aria-hidden="true"></span>eCampus</a>
+</li>
+<li>
+<a class="track-header" href="https://dcccd.sharepoint.com/"><span class="ico fab fa-microsoft" aria-hidden="true"></span>SharePoint</a>
+</li>
+<li>
+<a class="track-header" href="http://outlook.dcccd.edu/"><span class="ico fas fa-envelope" aria-hidden="true"></span>Email</a>
+</li>
+<li>
+<a class="track-header" href="https://www.dallascollege.edu/staff-directory/pages/default.aspx"><span class="ico fas fa-address-book" aria-hidden="true"></span>Employee Directory</a>
+</li>
+<li>
+<a class="track-header" href="https://dcccd.navigate.eab.com/"><span class="ico fas fa-compass" aria-hidden="true"></span>Navigate</a>
+</li>
+<li>
+<a class="track-header" href="https://teams.microsoft.com"><span class="ico fas fa-users" aria-hidden="true"></span>Microsoft Teams</a>
+</li>
+<li role="separator" class="divider">
+</li>
+<li>
+<a class="track-header" href="http://myapps.dcccd.edu">View more online tools...</a>
+</li>
+</ul>
+</li>
+<li class="dropdown locations lm-seperator">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							Locations<span class="ico fas fa-chevron-circle-down" aria-hidden="true"></span></a>
+<ul class="dropdown-menu">
+<li class="BH">
+<a class="track-header" href="https://www.dallascollege.edu/about/bhc/pages/default.aspx"><strong>Brookhaven</strong> 	&ndash; Farmers Branch</a>
+</li>
+<li class="CV">
+<a class="track-header" href="https://www.dallascollege.edu/about/cvc/pages/default.aspx"><strong>Cedar Valley</strong> 	&ndash; Lancaster</a>
+</li>
+<li class="EF">
+<a class="track-header" href="https://www.dallascollege.edu/about/efc/pages/default.aspx"><strong>Eastfield</strong> 	&ndash; Mesquite</a>
+</li>
+<li class="EC">
+<a class="track-header" href="https://www.dallascollege.edu/about/ecc/pages/default.aspx"><strong>El Centro</strong> 	&ndash; Downtown Dallas</a>
+</li>
+<li class="MV">
+<a class="track-header" href="https://www.dallascollege.edu/about/mvc/pages/default.aspx"><strong>Mountain View</strong> 	&ndash; Oak Cliff</a>
+</li>
+<li class="NL">
+<a class="track-header" href="https://www.dallascollege.edu/about/nlc/pages/default.aspx"><strong>North Lake</strong> 	&ndash; Irving</a>
+</li>
+<li class="RL">
+<a class="track-header" href="https://www.dallascollege.edu/about/rlc/pages/default.aspx"><strong>Richland</strong> 	&ndash; North Dallas</a>
+</li>
+<li role="separator" class="divider">
+</li>
+<li>
+<a href="https://www.dallascollege.edu/about/pages/locations.aspx">View all locations...</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="pgs-banner pgs-banner--compact pgs-banner--econnect" style="background-image: url('/images/econnect-header-bg-1600x256.jpg')">
+<div class="pgs-banner__title">
+<div class="container">
+<div class="col-md-7 col-sm-6">
+<div class="h1 pgs-banner__h1">
+<a href="https://www.dallascollege.edu/"><img class="logo-bar-slot__img" src="/assets/logos/dc-logo-master-white.png" alt="Dallas College"></a><a class="underline-inv text-cwhite site-title" href="https://eConnect.dcccd.edu/eConnect/eConnect?TYPE=M&amp;PID=CORE-WBMAIN">eConnect <span class="text_reader_only">Home</span></a>
+</div>
+</div>
+<div class="col-md-5 col-sm-6 text-right">
+<a class="button button-sm bg-cprimary no-margin" href="http://econnect.custhelp.com/">
+			
+            FAQs<span class="hidden-sm hidden-xs">: Get Answers</span></a>&nbsp;<a class="button button-sm bg-cprimary no-margin" id="acctContact" href="http://econnect.custhelp.com/app/answers/detail/a_id/153">Contact&nbsp;Us</a>&nbsp;<a class="button button-sm bg-cprimary no-margin" id="acctLogout" href="HTTPS://econnect.dcccd.edu:443/eConnect/eConnect?TOKENIDX=7445921841&amp;type=P&amp;pid=UT-LORQ" onmouseover="window.status=''; return true;">Log&nbsp;Out</a>
+</div>
+</div>
+</div>
+</div>
+<div class="pgs-banner__sub-nav bg-cgrey">
+<div class="container">
+<nav class="pgs-navbar--banner">
+<div class="table-center">
+<ul class="nav navbar-nav" role="menu">
+<li>
+<a class="ec-FS" href="/eConnect/eConnect?type=M&amp;constituency=WBAP&amp;pid=CORE-WBAP">
+									Future Students
+								</a>
+</li>
+<li>
+<a class="ec-CS" href="/eConnect/eConnect?type=M&amp;constituency=WBST&amp;pid=CORE-WBST">
+									Credit Students
+								</a>
+</li>
+<li>
+<a class="ec-CE" href="/eConnect/eConnect?type=M&amp;constituency=WBCE&amp;pid=CORE-WBCE">
+									CE Students
+								</a>
+</li>
+<li>
+<a class="ec-FC" href="/eConnect/eConnect?type=M&amp;constituency=WBFC&amp;pid=CORE-WBFC">
+									Faculty
+								</a>
+</li>
+<li>
+<a class="ec-EM" href="/eConnect/eConnect?type=M&amp;constituency=WBEM&amp;pid=CORE-WBEM">
+									Employees
+								</a>
+</li>
+<li class="Nav_RT">
+<a class="ec-RT" href="/eConnect/eConnect?type=M&amp;constituency=WBAF&amp;pid=CORE-WBAF">
+									Retirees
+								</a>
+</li>
+<li>
+<a class="ec-BCS" href="https://schedule.dallascollege.edu/">
+							Credit Schedule
+						</a>
+</li>
+<li>
+<a class="ec-CEBCS" href="https://ceschedule.dallascollege.edu/">
+							CE Schedule</a>
+</li>
+<li>
+<a class="ec-CAT" href="https://www.dallascollege.edu/catalog">
+							Catalog
+						</a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="clear">
+<span></span>
+</div>
+</div>
+</div>
+</header><header id="l-header-mobile" aria-hidden="false">
+<div id="skiptocontent" role="navigation" aria-label="Skip navigation">
+<a style="color:#ffffff!important" href="#pageBody">Skip to Main Content</a>
+</div>
+<nav class="navbar navbar-default navbar-utility bg-cprimary-lt">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown dropdown--tools">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Online Tools <span class="ico fas fa-chevron-circle-down" aria-hidden="true"></span></a>
+<ul class="dropdown-menu row">
+<li class="col-xs-4 col-xxs-6">
+<a href="https://econnect.dcccd.edu"><span class="ico fas fa-network-wired" aria-hidden="true"></span>eConnect</a>
+</li>
+<li class="col-xs-4 col-xxs-6">
+<a href="https://ecampus.dcccd.edu/"><span class="ico fas fa-chalkboard-teacher" aria-hidden="true"></span>eCampus</a>
+</li>
+<li class="col-xs-4 col-xxs-6">
+<a href="https://dcccd.sharepoint.com/"><span class="ico fab fa-microsoft" aria-hidden="true"></span>SharePoint</a>
+</li>
+<li class="col-xs-4 col-xxs-6">
+<a href="http://outlook.dcccd.edu/"><span class="ico fas fa-envelope" aria-hidden="true"></span>Email</a>
+</li>
+<li class="col-xs-4 col-xxs-6">
+<a href="https://www.dallascollege.edu/staff-directory/pages/default.aspx"><span class="ico fas fa-address-book" aria-hidden="true"></span><span class="hidden-ip5">Employee </span>Directory</a>
+</li>
+<li class="col-xs-4 col-xxs-6">
+<a href="https://dcccd.navigate.eab.com/"><span class="ico fas fa-compass" aria-hidden="true"></span>Navigate</a>
+</li>
+<li role="separator" class="divider">
+</li>
+<li class="col-xs-12">
+<a href="http://myapps.dcccd.edu">View more online tools...</a>
+</li>
+</ul>
+</li>
+</ul>
+</nav><nav class="navbar navbar-inverse shadow-nav pgs-banner bg-cprimary" data-spy="affix" data-offset-top="45">
+<div class="navbar-header" style="background: linear-gradient(0deg, rgba(0, 51, 133, 0.85), rgba(0, 51, 133, 0.85)), url('/assets/econnect-header-bg-1600x256.jpg');background-size:cover;background-position:center;">
+<a class="mobile-logo" href="https://econnect.dcccd.edu/"><img src="/assets/logos/dc-logo-dmark-white.png" alt="Dallas College"> eConnect <span class="text_reader_only">Home</span></a><button class="hamburger hamburger--squeeze navbar-toggle collapsed bg-cprimary-dk navbar-primary-toggle" type="button" data-toggle="collapse" data-target="#l-header-mobile__menu" aria-expanded="false"><span class="hamburger-box"><span class="hamburger-inner"></span><span class="sr-only">Toggle Menu</span></span></button><script>
+					var $hamburger = $(".hamburger");
+						$hamburger.on("click", function(e) {
+						$hamburger.toggleClass("is-active");
+						// Do something else, like open/close menu
+					});
+					</script>
+</div>
+<div class="collapse navbar-collapse" id="l-header-mobile__menu">
+<ul class="nav navbar-nav navbar-primary">
+<li>
+<a class="ec-FS" href="/eConnect/eConnect?type=M&amp;constituency=WBAP&amp;pid=CORE-WBAP">Future Student</a>
+</li>
+<li>
+<a class="ec-CS" href="/eConnect/eConnect?type=M&amp;constituency=WBST&amp;pid=CORE-WBST">Credit Student</a>
+</li>
+<li>
+<a class="ec-CE" href="/eConnect/eConnect?type=M&amp;constituency=WBCE&amp;pid=CORE-WBCE">CE/WT Student</a>
+</li>
+<li>
+<a class="ec-FC" href="/eConnect/eConnect?type=M&amp;constituency=WBFC&amp;pid=CORE-WBFC">Faculty</a>
+</li>
+<li>
+<a class="ec-EM" href="/eConnect/eConnect?type=M&amp;constituency=WBEM&amp;pid=CORE-WBEM">Employee</a>
+</li>
+<li>
+<a class="ec-RT" href="/eConnect/eConnect?type=M&amp;constituency=WBAF&amp;pid=CORE-WBAF">Retirees</a>
+</li>
+<li>
+<a class="ec-BCS" href="https://schedule.dcccd.edu/">Browsable Schedule</a>
+</li>
+<li>
+<a class="ec-CAT" href="https://www.dallascollege.edu/catalog">Catalog</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-secondary bg-cprimary-dk">
+<li>
+<a href="http://econnect.custhelp.com/">FAQ: Get Answers</a>
+</li>
+<li>
+<a href="http://econnect.custhelp.com/app/answers/detail/a_id/153">Contact Us</a>
+</li>
+<li>
+<a href="HTTPS://econnect.dcccd.edu:443/eConnect/eConnect?TOKENIDX=7445921841&amp;type=P&amp;pid=UT-LORQ">Log&nbsp;Out</a>
+</li>
+</ul>
+</div>
+</nav><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script></header>
+</div>
+<div id="mainBody" xmlns="">
+<div id="mainWelcome">
+<p>
+<strong>Welcome Michael!</strong>
+</p>
+<p>eConnect is a web interface that provides a variety of online services to Dallas College students, faculty, and staff.
+         </p>
+<p>
+<strong>Select your point of entry to the right.</strong>
+</p>
+</div>
+<div class="clear">
+<span></span>
+</div>
+<div id="mmInfo">
+<h2 class="mmTitle" id="pageBody">eConnect Main Menu</h2>
+<hr class="mmTitlehr">
+<div id="Announcements" class="customText">
+          <script language="JavaScript" src="/javascript/system_down.js" type="text/javascript"></script>
+          <script language="JavaScript" src="/javascript/faqs_down.js" type="text/javascript"></script>
+          
+          </div>
+<div class="customText">
+                eConnect is a web interface that provides a variety of online services to Dallas College
+                students, faculty, and staff.
+                <br>
+<br>
+<strong>NOTE: eConnect hours of operation are 4AM - 1AM CST unless otherwise noted.</strong>
+</div>
+<span id="formWelcome">
+<p>
+<strong>Select a menu on the right and then log in. </strong><img src="/images/burg_arrow.gif" width="15" height="15" alt="->" border="0" align="middle"></p>
+</span>
+<div class="customLinks">
+<div class="spacer20">
+<span></span>
+</div>
+<a href="/../../help/LogIn/LogIn.jsp">I'm New to eConnect</a>
+<br>
+<a href="/../../help/LogIn/Password.jsp">What's My Password?</a>
+<br>
+</div>
+</div>
+<div id="mmNavBars">
+<div id="mainForm">
+<div id="mainMenu">
+<a class="WBST_Bars title" href="HTTPS://econnect.dcccd.edu:443/eConnect/eConnect?TOKENIDX=7445921841&amp;type=M&amp;constituency=WBST&amp;pid=CORE-WBST"> Current Credit Students Menu<span class="ol">The Credit Student menu lets you get personalized information and conduct business online. You can plan your schedule, find credit classes, register, pay, check grades and more (log in required).</span></a><a class="WBCE_Bars title" href="HTTPS://econnect.dcccd.edu:443/eConnect/eConnect?TOKENIDX=7445921841&amp;type=M&amp;constituency=WBCE&amp;pid=CORE-WBCE"> Continuing Education/Workforce Training Student Menu<span class="ol">The Continuing Education/Workforce Training Student menu allows you to find up-to-date CE/Workforce classes. Students earn Continuing Education Units (CEUs) rather than college credit for attending continuing education/workforce training classes.</span></a>
+</div>
+</div>
+</div>
+<div class="clear">
+<span></span>
+</div>
+</div>
+<div id="pageFooter" xmlns="">
+<div class="custom">
+</div>
+<div id="footerBanner">
+<noindex>
+<div id="pgsfooter">
+<footer id="l-footer" class="bg-cprimary-dk pgs">
+<h2 class="sr-only">Footer</h2>
+<div id="l-footer__main" class="bg-cprimary">
+<div class="container">
+<div class="row">
+<nav class="l-footer__main__popular-items col-md-4">
+<div class="l-footer__main__popular-items__box bg-cprimary-dk">
+<h3 class="sr-only">Popular Links</h3>
+<ul class="row">
+<li class="col-md-12 col-sm-4 col-xs-6">
+<a class="trac''''+                                 +66k-footer" href="https://econnect.dcccd.edu"><span class="ico fas fa-network-wired" aria-hidden="true"></span>eConnect</a>
+</li>
+<li class="col-md-12 col-sm-4 col-xs-6">
+<a class="track-footer" href="https://ecampus.dcccd.edu/"><span class="ico fas fa-chalkboard-teacher" aria-hidden="true"></span>eCampus</a>
+</li>
+<li class="col-md-12 col-sm-4 col-xs-6">
+<a class="track-footer" href="https://www.dallascollege.edu/libraries/pages/default.aspx"><span class="ico fas fa-book" aria-hidden="true"></span>Libraries</a>
+</li>
+<li class="col-md-12 col-sm-4 col-xs-6">
+<a class="track-footer" href="https://www1.dcccd.edu/catalog/GeneralInfo/AcadCalendar/academic_calendar.cfm"><span class="ico fas fa-calendar-alt" aria-hidden="true"></span>Acad<span class="hidden-ip5">emic</span> Calendar</a>
+</li>
+<li class="col-md-12 col-sm-4 col-xs-6">
+<a class="track-footer" href="https://www.dallascollege.edu/maps/pages/default.aspx"><span class="ico fas fa-university" aria-hidden="true"></span>Locations<span class="hidden-ip5"> &amp; Maps</span></a>
+</li>
+</ul>
+</div>
+</nav>
+<div class="l-footer__main__all-items col-md-8">
+<div class="row">
+<nav class="col-sm-6 col-md-5 col-lg-6">
+<h3 class="l-footer__main__heading">Resources</h3>
+<div class="row">
+<div class="col-xs-6">
+<ul>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/slife/athletics/pages/default.aspx">Athletics</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/resources/books/pages/bookstores.aspx">Bookstore</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/catalog">Catalog</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/cd/schedules/pages/default.aspx">Class Schedules</a>
+</li>
+<li>
+<a class="track-footer" href="https://www1.dcccd.edu/catalog/GeneralInfo/CollegePolicies/code.cfm ">Code of Student Conduct </a>
+</li>
+</ul>
+</div>
+<div class="col-xs-6">
+<ul>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/cd/ce/pages/default.aspx">Continuing Education</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/paying-for-college/financial-aid/pages/default.aspx">Financial Aid</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/admissions/registration/pages/default.aspx#dates">Registration Dates</a>
+</li>
+<li>
+<a class="track-footer" href="http://blog.dcccd.edu/">Student News</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/resources/transcripts/pages/default.aspx">Transcripts</a>
+</li>
+</ul>
+</div>
+</div>
+</nav><nav class="col-sm-3 col-xs-6 col-md-4 col-lg-3">
+<h3 class="l-footer__main__heading">Help &amp; Support</h3>
+<ul>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/contact/pages/default.aspx">Contact Us</a>
+</li>
+<li>
+<a class="track-footer" href="http://district.custhelp.com/app/home">FAQs</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/police-safety/pages/default.aspx">Police &amp; Emergency</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/sexualassault">Report Sexual Assault or Misconduct (Title IX)</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/contact/pages/complaint.aspx">Submit a Complaint </a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/about/legal/pages/cares-act-reporting.aspx">CARES Act Reporting</a>
+</li>
+</ul>
+</nav><nav class="col-sm-3 col-xs-6">
+<h3 class="l-footer__main__heading">About Us</h3>
+<ul>
+<li>
+<a class="track-footer" href="https://foundation.dcccd.edu">Donate</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/events/pages/default.aspx">Events</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/jobs/pages/default.aspx">Job Opportunities</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/about/news-media/pages/default.aspx">News &amp; Media</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/cd/schools/pages/default.aspx">Schools</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="l-footer__contact" class="bg-cprimary-dk">
+<div class="container">
+<div class="row">
+<div class="col-sm-8">
+<ul class="list-inline">
+<li>
+<strong>Administrative Offices:</strong> 1601 S. Lamar St., Dallas, TX  75215</li>
+<li class="hidden-xs">
+<strong>Phone:</strong> 214-378-1500</li>
+<li>
+<strong><a class="track-footer" href="https://www.dallascollege.edu/contact/pages/default.aspx">Email Us</a></strong>
+</li>
+</ul>
+</div>
+<div class="visible-xs-block col-xs-6 col-xs-offset-3 col-ip5-12 col-ip5-offset-0 l-footer__contact__call">
+<a class="button button-block button-lg bg-cwhite text-cprimary-dk track-footer" href="tel:2143781500"><span class="ico fas fa-phone-alt" aria-hidden="true"></span> Call Us</a>
+</div>
+<div class="clearfix visible-xs">
+</div>
+<div class="col-md-4 l-footer__contact__social">
+<ul class="list-inline">
+<li>
+<a class="track-footer" href="https://www.facebook.com/dallascollegetx"><span class="ico fab fa-facebook" aria-label="Dallas College on Facebook"></span></a>
+</li>
+<li>
+<a class="track-footer" href="https://twitter.com/dallascollegetx"><span class="ico fab fa-twitter" aria-label="Dallas College on Twitter"></span></a>
+</li>
+<li>
+<a class="track-footer" href="https://www.instagram.com/dallascollegetx/"><span class="ico fab fa-instagram" aria-label="Dallas College on Instagram"></span></a>
+</li>
+<li>
+<a class="track-footer" href="https://www.linkedin.com/school/dallas-county-community-college/"><span class="ico fab fa-linkedin" aria-label="Dallas College on LinkedIn"></span></a>
+</li>
+<li>
+<a class="track-footer" href="https://www.youtube.com/user/DCCCDCollege"><span class="ico fab fa-youtube" aria-label="Dallas College on YouTube"></span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="l-footer__fine-print" class="cblack">
+<div class="container">
+<div class="row">
+<div id="copyright_info" class="col-lg-2 col-md-3 l-footer__fine-print__copyright">&copy;&nbsp;<span class="cpyyear" id="masterpage_copyright_year"></span><strong> Dallas College </strong>
+</div>
+<div class="col-lg-10 col-md-9 l-footer__fine-print__links">
+<ul class="list-inline">
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/about/accessibility/pages/default.aspx">Report an Accessibility Issue</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/about/legal/pages/default.aspx">Legal Notices</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/about/financial/transparency/pages/default.aspx">Financial Transparency</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/website/pages/privacy-security.aspx">Privacy &amp; Security Policy</a>
+</li>
+<li>
+<a class="track-footer" href="https://www1.dcccd.edu/fraudhotline/index.cfm">Report Fraud</a>
+</li>
+<li>
+<a class="track-footer" href="https://www.dallascollege.edu/website/pages/sitemap.aspx">Site Map</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script>
+    var ft_thisYear;
+    var ft_currDate = new Date();
+    ft_thisYear = document.getElementById("masterpage_copyright_year");
+    ft_thisYear.innerHTML = ft_currDate.getFullYear();
+</script></noindex>
+</div>
+</div>
+</div>
+</body>
+</html>
